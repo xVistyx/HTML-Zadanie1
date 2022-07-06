@@ -9,10 +9,10 @@
 </head>
 
 <body>
-<!-- Nawigacja -->
+    <!-- Nawigacja -->
     <h1>Skorzystaj z hiperłączy i przejdź szybko do jakieś kategorii</h1>
-    <nav class="Nawigacja">
-        <ul class="Lista menu">
+    <nav class="nawigacja">
+        <ul class="lista_menu">
             <li><a href="#about">About us</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
@@ -20,9 +20,9 @@
         </ul>
     </nav>
 
-<!-- Sekcja o nas -->
+    <!-- Sekcja o nas -->
     <section id="about">
-        <h1>O Nas!</h1>
+        <h2>O Nas!</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo accusantium tempore veniam, quod temporibus
             molestiae culpa! Blanditiis error consequuntur quo eius dicta totam, id rem veritatis hic quidem quibusdam
             iusto?</p>
@@ -30,7 +30,7 @@
     <!-- Sekcja o naszych umiejętnościach -->
     <section id="skills">
 
-        <h1>Skills</h1>
+        <h2>Skills</h2>
 
         <div class="skill">
             <h3>Nasze umiejętności</h3>
@@ -60,23 +60,23 @@
                 tenetur enim!</p>
         </div>
 
-<!-- Sekcja portfolio -->
+        <!-- Sekcja portfolio -->
 
     </section><br><br>
 
     <section id="portfolio">
 
-        <h1>To my</h1>
+        <h2>To my</h2>
 
-        <div class="portfolio item">Pracownik Adam<br><img
+        <div class="portfolio_item">Pracownik Adam<br /><img
                 src="https://alebank.pl/wp-content/uploads/2021/10/pracownicy-praca-753x424-AdobeStock_392616471-fizkes.jpg"
-                alt="Pracownik" width="300" height="150"></div><br>
-        <div class="portfolio item">Pracownik Marek<br><img
+                alt="Pracownik" width="300" height="150"></div><br />
+        <div class="portfolio_item">Pracownik Marek<br /><img
                 src="https://alebank.pl/wp-content/uploads/2021/10/pracownicy-praca-753x424-AdobeStock_392616471-fizkes.jpg"
-                alt="Pracownik" width="300" height="150"></div><br>
-        <div class="portfolio item">Pracownik koleb<br><img
+                alt="Pracownik" width="300" height="150"></div><br />
+        <div class="portfolio_item">Pracownik Koleb<br /><img
                 src="https://alebank.pl/wp-content/uploads/2021/10/pracownicy-praca-753x424-AdobeStock_392616471-fizkes.jpg"
-                alt="Pracownik" width="300" height="150"></div><br>
+                alt="Pracownik" width="300" height="150"></div><br />
 
 
 
@@ -85,20 +85,20 @@
 
     </section>
 
-<!-- Sekcja kontakt -->
+    <!-- Sekcja kontakt -->
     <section id="contact">
-        <h1>Skontaktuj się z nami!</h1>
-        <h2>Moje imię to Jan Kowalski</h2><br>
+        <h2>Skontaktuj się z nami!</h2>
+        <h3>Moje imię to Jan Kowalski</h3><br>
 
 
-        <h3>Wypełnij wymagane pola i wyślij nam wiadomość!</h3>
-        <form action="mailto:tempmailfast@gmail.com" method="post">
-            <label>Imie</label><br>
-            <input type="text" name="imie" size="25" maxlength="24"><br>
+        <h4>Wypełnij wymagane pola i wyślij nam wiadomość!</h4>
+        <form action="mailto:tempmailfast@gmail.com" method="POST">
+            <label for="imie">Imie</label><br>
+            <input type="text" name="imie" id="imie" size="25" maxlength="24"><br>
             <label>Temat</label><br>
             <input type="text" name="temat" size="15" maxlength="14"><br>
             <label>Wiadomość</label><br>
-            <input type="text" name="wiadomosc" size="40" width="70" maxlength="1000"><br>
+            <input type="text" name="wiadomosc" size="40" maxlength="1000"><br>
             <input type="submit" name="wyslij" value="Wyślij wiadmość"><br>
 
 
